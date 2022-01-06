@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <title>KurdCademy</title>
+<script src="lib/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+
+  <div class="font">
+
+
+    <header class="p-3 bg-dark text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+         
+
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" style="margin-left: 10px;">
+            <a href="index.htm">
+
+              <img id="logo" src="img/logo.svg" alt="">
+
+            </a>
+
+            <!--  <li><a href="index.htm" class="nav-link px-2 text-secondary">Home</a></li> -->
+            <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <li><a href="price/price.htm" class="nav-link px-2 text-white">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+            <!-- <li style="margin-left: 160px; font-family: cursive; color: gold; "><h1>KurdCademy</h1></li> -->
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input type="search" style="width: 324x;" class="form-control form-control-dark" placeholder="Search..."
+              aria-label="Search">
+          </form>
+
+          <div class="text-end">
+            <a class="loginn btn btn-outline-light me-2" href="login.htm"> Login</a>
+            <a href="signUp.htm" class="loginn btn btn-warning  ">Sign-Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- form -->
+    <div class="container" id="div-top">
+
+
+
+      <form action="login.htm" method="post">
+
+        <table align="center">
+          <div style="margin-top: 70px;">
+
+            <tr>
+              <td class="text-center " id="txt-login">
+                Login
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input name="email" id="email" placeholder="Email@example.com">
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="password" name="password" id="password" placeholder="Password">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button onclick="login()" type="submit" id="btn" class="btn btn-warning">
+                  Login
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 16px; text-align: center;">
+                <label for="">or </label>
+                <a href="?">Forget Password</a>
+
+              </td>
+            </tr>
+
+          </div>
+
+        </table>
+      </form>
+    </div>
+    
+      <div id="div-footer">
+ 
+
+        <footer id="footer" class="bg text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.facebook.com/HemnDev101/" role="button">
+                facebook
+              </a>
+    
+    
+    
+              <!-- Instagram -->
+              <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="#!" role="button">Instagram</a>
+    
+              <!-- Linkedin -->
+              <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="#!" role="button">Linkedin</a>
+    
+              <!-- Github -->
+              <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://github.com/HemnDev101" role="button">Github</a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+    
+          <!-- Copyright -->
+          <div class="text-center p-3 "
+            style=" background-color: #212529">
+            © 2022 Copyright:
+            <a class="text-white" href="https://KurdAcademy.edu/" style="color: #FFC107;">KurdAcademy</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+      </div>
+
+  
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+.font{
+    font-family: cursive;
+
+}
+
+#logo{
+    width: 200px;
+}
+
+.div2{
+    background-color:gold;
+ 
+    
+}
+
+
+body {
+  font-family: Arial;
+  color: white;
+background-color: #212529;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: relative;
+
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 70px;
+  }
+
+  .left {
+    left: 0;
+    background-color: #212529;
+    float: right;
+    
+  }
+  
+  .right {
+    right: 0;
+    background-color: #FFC107;
+  }
+ #l{
+  left: 0;
+  background-color: #212529;
+  float: left;
+ }
+  .centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 140px;
+   }
+  
+   .centered img {
+    width: 150px;
+   }
+.pr{
+    color: #FFC107;
+ }
+.pl{
+ color: #212529;    
+}
+.bjoin{
+  font-size: 30px;
+  color: #FFC107 ;
+  text-decoration: none;
+  border: #FFC107 solid 3px;
+  padding: 5px; 
+
+}
+.bjoin:hover{
+background-color: #FFC107 ;
+color: #212529;
+}
+
+.gjoin{
+  font-size: 30px;
+  color: #212529 ;
+  text-decoration: none;
+  border: #212529   solid 3px;
+  padding: 5px; 
+}
+
+.gjoin:hover{
+  background-color: #212529 ;
+  color: #FFC107;
+  }
+
+  #div-footer{
+    margin-top: 100px ;
+    background-color: white;
+  }
